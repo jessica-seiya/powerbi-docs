@@ -17,8 +17,8 @@ LocalizationGroup: Connect to data
 With Power BI Desktop, you can enter data directly and use that data in your reports and visualizations. For example, you can copy portions of a workbook or web page, then paste it into Power BI Desktop.
 
 To enter data directly, select **Enter Data** from the **Home** ribbon.
-
-![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_1.png)
+png
+![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_1.)
 
 Power BI Desktop may attempt to make minor transformations on the data, if appropriate, just like it does when you load data from any source. For example, in the following case it promoted the first row of data to headers.
 
@@ -29,6 +29,8 @@ If you want to shape the data you entered (or pasted), you can select the Edit b
 When you select **Load**, Power BI Desktop creates a new table from your data, and makes it available in the **Fields** pane. In the following image, Power BI Desktop shows my new table, called *Table1* by default, and the two fields within that table that were created.
 
 ![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_3.png)
+
+If you want to modify the entered data, you can open this talbe in **Power Query**. Then, nagivate to **Query Settings** -> **Applied Steps**, double click the first step named **Source** to open the **Create Data** window again for modification.
 
 And that’s it – it’s that easy to enter data into Power BI Desktop.
 
